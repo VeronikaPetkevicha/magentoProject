@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+        <preference for="Veronika\Blog\Api\Data\PostInterface" type="Veronika\Blog\Model\Post" />
+        <preference for="Veronika\Blog\Api\PostRepositoryInterface" type="Veronika\Blog\Model\PostRepository" />
+</config>
